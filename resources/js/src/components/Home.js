@@ -7,7 +7,7 @@ const Home = () => {
         <AppContainer
             title="Laravel ReactJS- CRUD"
         >
-            <Link to="/add" className="btn btn-primary">Go somewhere</Link>
+            <Link to="/add" className="btn btn-primary">Add Number</Link>
             <div className="table-responsive">
                 <table className="table table-striped mt-4">
                     <thead>
@@ -24,7 +24,7 @@ const Home = () => {
                             <td>Sample Title</td>
                             <td>Sample Description</td>
                             <td>
-                                <a href="#" className="btn btn-warning">EDIT</a>
+                                <Link to="/edit/1" className="btn btn-warning">EDIT</Link>
                                 <a href="#" className="btn btn-danger">DELETE</a>
                             </td>
                         </tr>
